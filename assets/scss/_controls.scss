@@ -16,6 +16,7 @@
 
   align-items: center;
   justify-content: center;
+
   @include lg-min {
     cursor: pointer;
   }
@@ -27,11 +28,9 @@
     left: calc(50% - 20vh);
 
     height: 40vh;
-    padding: 0;
 
     transition: opacity 0.25s ease-out;
-
-    opacity: 0;
+    opacity: 1;
 
     @extend %control;
 
