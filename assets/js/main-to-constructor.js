@@ -1,5 +1,8 @@
-const carousel = new SwipeCarousel('#myCarouselID', '.myCustomClass');
+
+const carousel = new SwipeCarousel({
+  containerID: "#myCarouselID",
+  slideID: '.myCustomClass',
+});
 
 carousel.init();
-
 

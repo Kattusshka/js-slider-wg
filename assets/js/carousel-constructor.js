@@ -1,8 +1,8 @@
 // наследование на прототипах
 
-function Carousel(containerID = '#carousel', slideID = '.slide') {
-  this.container = document.querySelector(containerID);
-  this.slides = this.container.querySelectorAll(slideID);
+function Carousel(containerID = '#carousel') {
+  this.container = document.querySelector(containerID.containerID);
+  this.slides = this.container.querySelectorAll(containerID.slideID);
 
   this.interval = 2000;
 }
